@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
             String selectedTo = (String) toSpinner.getSelectedItem();
             enteredValue = Double.parseDouble(units.getText().toString());
             converter(selectedFrom, selectedTo, enteredValue);
-            units.setText("");
+            units.setText("0");
 
         });
 
